@@ -25,8 +25,14 @@ class Game{
     // Start the game 
     startGame() {
         document.getElementById('overlay').style.display = 'none';
+        this.activePhrase = this.getRandomPhrase();
+        this.activePhrase.addPhraseToDisplay();
     }
      
+    // get random phrase from phraseArray
+    getRandomPhrase() {
+        const randomPhraseIndex = Math.floor(Math.random()*this.phraseArray.length);
+    }
 
 
 }
