@@ -5,23 +5,22 @@
 // declare Game class
 class Game{
     //  the Game class cosntructor doesn't receive any parameters
-    constructor(){
+    constructor() {
         this.missed = 0;
-        this.phrases = [];
+        // I chose option #2: Simply add 5 new Phrase objects directly in the empty array that was originally
+        // set as the value of the `phrases` property
+        this.phrases = [
+                        new Phrase('No pain no gain'),
+                        new Phrase('Practice makes pgorgress'),
+                        new Phrase('It is great to be alive'),
+                        new Phrase('Good things take time'),
+                        new Phrase('Life is short')
+                    ];
+                    // console.log(this.phrases.length);
         this.activePhrase = null;
     }
-
-    // Create phrases for use in game
-    createPhrases() {
-        const phraseArray = ['no pain no gain',
-                            'practice makes pgorgress',
-                            'It is great to be alive',
-                            'good things take time',
-                            'life is short'];
-
-        return phraseArray;
-    };
-
+  
+    
     // Start the game 
     startGame() {
         document.getElementById('overlay').style.display = 'none';
@@ -29,9 +28,10 @@ class Game{
         this.activePhrase.addPhraseToDisplay();
     }
      
-    // get random phrase from phraseArray
+    // get a random phrase from phraseArray, and return {object} phrase object chosen to be used 
     getRandomPhrase() {
-        const randomPhraseIndex = Math.floor(Math.random()*this.phraseArray.length);
+        const randomPhraseIndex = Math.floor(Math.random()*this.phrases.length);
+        return this.phrases[randomPhraseIndex];
     }
 
 
