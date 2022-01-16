@@ -11,7 +11,7 @@
   --color-neutral-light: #D2D2D2;
   --color-keys: #37474F;
   --color-keys-light: #E5E5E5;
-  --font-size-large: 60px;
+  --font-size-large: 65px;
   --font-size-medium: 20px;
   --transition: all .2s ease-in-out;
 }
@@ -40,6 +40,10 @@ h2 {
   text-transform: uppercase;
   font-size: var(--font-size-large);
   margin: 0;
+  background: linear-gradient(#c5d81a, #e40808);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;  
+   font-weight: bold;
 }
 
 h1 {
@@ -64,6 +68,14 @@ button {
 	width: 200px;
 	margin: 0 auto;
 }
+.good-luck { 
+  font-size: 3.5em;
+  font-weight: bold;
+  background: linear-gradient(#c5d81a, #e40808);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+
+} 
 
 .main-container {
   display: flex;
@@ -87,6 +99,7 @@ button {
 
 .header {
   color: #3a3f58;
+ 
 }
 
 
@@ -153,6 +166,13 @@ button {
   border-right: solid 3px rgba(0, 0, 0, .3)
 }
 
+#btn__reset:hover{
+  cursor:pointer;
+  border-radius: 10px;
+  background-color: #46d84d;
+  color:white;
+}
+
 .btn__reset:active {
   padding: 14px 16px 16px 14px;
   border-bottom: solid 4px rgba(0, 0, 0, 0);
@@ -180,7 +200,7 @@ button {
 }
 
 .start {
-  background-color: #3a3f58;
+  background-color: #220524;
 }
 
 .start a {
