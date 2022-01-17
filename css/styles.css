@@ -6,7 +6,7 @@
 :root {
   --color-win: #78CF82;
   --color-lose: #D94545;
-  --color-start: #5b85b7;
+  --color-start: #0e5040;
   --color-neutral: #445069;
   --color-neutral-light: #D2D2D2;
   --color-keys: #37474F;
@@ -200,7 +200,7 @@ button {
 }
 
 .start {
-  background-color: #220524;
+  background-color: #0e5040;
 }
 
 .start a {
