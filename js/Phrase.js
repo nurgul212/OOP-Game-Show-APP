@@ -5,12 +5,26 @@
 // declare Phrase class
 class Phrase{
     constructor(phrase){
-        this.phrase = phrase.toLowerCse();
+        this.phrase = phrase.toLowerCase();
         
     }
 
     // This method adds letter placeholders to the display when the game starts.
-    addPhraseToDIsplay(){
+    addPhraseToDisplay(){
+        const selectedPhrase = this.phrase.split('');
+        // console.log(selectedPhrase);
+        const ul = document.querySelector('#phrase ul');
+        for(let i = 0; i < selectedPhrase.length; i++){
+          const list = document.createElement('li');
+          list.textContent = selectedPhrase[i];
+          ul.appendChild(list);
+
+          if(selectedPhrase[i] === ' ' ){
+              list.className = 'space';
+          } else {
+              list.className = 'letter';
+          }
+        }
 
     }
 
