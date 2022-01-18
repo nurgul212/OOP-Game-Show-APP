@@ -8,11 +8,11 @@
   --color-lose: #D94545;
   --color-start: #0e5040;
   --color-neutral: #445069;
-  --color-neutral-light: #D2D2D2;
+  --color-neutral-light: #fffaf0;
   --color-keys: #37474F;
-  --color-keys-light: #E5E5E5;
+  --color-keys-light: #fffaf0;
   --font-size-large: 65px;
-  --font-size-medium: 20px;
+  --font-size-medium: 22px;
   --transition: all .2s ease-in-out;
 }
 
@@ -28,6 +28,8 @@ body {
   flex-direction: column;
   display: flex;
   height: 100vh;
+  /* background-color:  var(--color-neutral); */
+  background-color:  #112a24 ;
 }
 
 li, ol, ul {
@@ -84,6 +86,7 @@ button {
   height: 100%;
   max-height: 900px;
   text-align: center;
+  /* background-color: var(--color-neutral); */
 }
 
 .section {
@@ -123,9 +126,9 @@ button {
 
 
 .show {
-  color: #fff;
-  background-color: #4ac0d5;
-  font-size: 20px;
+  color: white;
+  background-color: #4fb934;
+  font-size: 25px;
   height: 65px;
   width: 65px;
   padding: 20px 1px 0 1px;
@@ -144,14 +147,14 @@ button {
 }
 
 .chosen {
-  background: #3a3f58;
+  background: #53ce34;
   border-radius: 5px;
   font-size: var(--font-size-medium);
   color: #FFFFFF;
 }
 
 .wrong {
-  background: #f7a964;
+  background: rgb(241, 47, 47);
   color: #FFFFFF;
 }
 
