@@ -4,7 +4,7 @@
 /* Variables */
 
 :root {
-  --color-win: #78CF82;
+  --color-win: #06400c;
   --color-lose: #D94545;
   --color-start: #0e5040;
   --color-neutral: #445069;
@@ -219,7 +219,7 @@ button {
 }
 
 .lose {
-  background-color: #f5785f;
+  background-color: #241e1d;
 }
 
 .lose a {

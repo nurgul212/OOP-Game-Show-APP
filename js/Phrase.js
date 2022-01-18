@@ -38,7 +38,7 @@ class Phrase{
     checkLetter(letter){
         // returns true/false Boolean
         return this.phrase.includes(letter);
-    }
+    };
 
     // When the player correctly guesses a letter, the empty box is replaced with matched letter
     showMatchedLetter(letter){    
@@ -52,5 +52,5 @@ class Phrase{
             }
         }
 
-    }
+    };
 }
