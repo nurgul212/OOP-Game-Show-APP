@@ -1,5 +1,5 @@
 ### FSJS Project 4 - OOP Game Show App
-In this project, you will create a browser-based, word guessing game: "Phrase Hunter". 
+In this project, I have created a browser-based, word guessing game: "Phrase Hunter". 
 
 ### Languages & Techniques Used: 
 - HTML (provide)
@@ -19,3 +19,7 @@ In this project, you will create a browser-based, word guessing game: "Phrase Hu
 - If the selected letter is not in the phrase, one of the player's hearts in the scoreboard is changed from a "live" heart to a "lost" heart.
 
 - The player keeps choosing letters until they reveal all the letters in the phrase (and win), or they make five incorrect guesses (and lose).
+
+### Exceeds Expectations Requirements
+- I added event listener for keydown event so that pressing a physical keyvoard button results in the handleInteraction() method being called for the associated onscreen keyboard button.
+- App styles have been personalized. 
