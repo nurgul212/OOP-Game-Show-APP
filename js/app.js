@@ -34,3 +34,14 @@ qwerty.addEventListener('click', (e)=>{
  }
 
 });
+
+//add event listener for keydown event so that pressing a physical keyvoard button results in the handleInteraction()
+// method being called for the associated onscreen keyboard button
+document.addEventListener('keydown', (e) => { 
+    let keyboard = document.getElementsByClassName('key');
+        for (let i = 0; i < keyboard.length; i ++){
+            if (e.key === keyboard[i].textContent && keyboard[i].disabled === false){
+                game.handleInteraction(keyboard[i]);
+        }
+    }
+});
