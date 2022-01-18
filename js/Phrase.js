@@ -10,7 +10,7 @@ class Phrase{
         // it should be converted to all lower case.
         this.phrase = phrase.toLowerCase();
         
-    }
+    };
 
     // This method adds letter placeholders to the display when the game starts.
     
@@ -29,9 +29,7 @@ class Phrase{
             }
         }
         
-    }
-
-
+    };
 
     // Check to see if the letter selected by the player matches a letter in the selected phrase
     // letter is a string
@@ -47,8 +45,7 @@ class Phrase{
 
         for( let i = 0; i < selectedLetter.length; i++){
             if(selectedLetter[i].textContent === letter){
-                selectedLetter[i].classList.add('show');
-                // selectedLetter.style.transition = '0.5s ease-in-out';              
+                selectedLetter[i].classList.add('show');            
             }
         }
 
