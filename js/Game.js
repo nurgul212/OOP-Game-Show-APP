@@ -92,7 +92,6 @@ class Game{
     };
 
 
-
     handleInteraction(button) {
         // console.log(button);
         // Disabled the letter button onscreen keyboard to prevent the player from clicking again
