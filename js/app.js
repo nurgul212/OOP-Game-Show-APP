@@ -37,11 +37,16 @@ qwerty.addEventListener('click', (e)=>{
 
 //add event listener for keydown event so that pressing a physical keyvoard button results in the handleInteraction()
 // method being called for the associated onscreen keyboard button
+
+const keyboard = qwerty.querySelectorAll('.key');
 document.addEventListener('keydown', (e) => { 
-    let keyboard = document.getElementsByClassName('key');
-        for (let i = 0; i < keyboard.length; i ++){
-            if (e.key === keyboard[i].textContent && keyboard[i].disabled === false){
+    // console.log('ekey '+ e.key);
+           for (let i = 0; i < keyboard.length; i ++){         
+            if (e.key.toLowerCase() === keyboard[i].textContent && keyboard[i].disabled === false){
+                // console.log(keyboard[i].textContent);
                 game.handleInteraction(keyboard[i]);
         }
     }
 });
+
+

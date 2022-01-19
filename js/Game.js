@@ -142,6 +142,19 @@ class Game{
     
     };
 
+
+
+    isLetterRepeated(letter) {
+        const keyboard = document.getElementById('qwerty');
+        const allButtons = keyboard.getElementsByTagName('button');
+        
+        for (let i=0; i < allButtons.length; i++) {
+            if (allButtons[i].textContent === letter && allButtons[i].disabled === true) {
+                return true;
+            }
+        }
+    }
+
 }
 
 
