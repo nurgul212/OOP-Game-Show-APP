@@ -1,6 +1,9 @@
 ### FSJS Project 4 - OOP Game Show App
 In this project, I have created a browser-based, word guessing game: "Phrase Hunter". 
 
+### Click the following link to view the app:
+https://nurgul212.github.io/OOP-Game-Show-APP/
+
 ### Languages & Techniques Used: 
 - HTML (provide)
 - CSS (Provided)
@@ -24,5 +27,3 @@ In this project, I have created a browser-based, word guessing game: "Phrase Hun
 - I added event listener for keydown event so that pressing a physical keyvoard button results in the handleInteraction() method being called for the associated onscreen keyboard button.
 - App styles have been personalized by changing the background color, adding extra texts, etc.
 
-### Click the following link to view the app:
-https://nurgul212.github.io/OOP-Game-Show-APP/
