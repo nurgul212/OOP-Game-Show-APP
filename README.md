@@ -22,4 +22,7 @@ In this project, I have created a browser-based, word guessing game: "Phrase Hun
 
 ### Exceeds Expectations Requirements
 - I added event listener for keydown event so that pressing a physical keyvoard button results in the handleInteraction() method being called for the associated onscreen keyboard button.
-- App styles have been personalized. 
+- App styles have been personalized by changing the background color, adding extra texts, etc.
+
+### Click the following link to view the app:
+https://nurgul212.github.io/OOP-Game-Show-APP/
