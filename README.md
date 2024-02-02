@@ -1,6 +1,8 @@
 ### FSJS Project 4 - OOP Game Show App
 In this project, I have created a browser-based, word guessing game: "Phrase Hunter". 
 
+## Project Sample Snapshot
+![Screenshot 2024-02-02 115456](https://github.com/nurgul212/OOP-Game-Show-APP/assets/90399606/26b76d03-c384-4d47-855a-c4978f8fa354)
 ### Click the following link to view the app:
 https://nurgul212.github.io/OOP-Game-Show-APP/
 
